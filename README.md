@@ -1,4 +1,4 @@
-# Store Online - Backend
+# Store Online Backend
 
 REST API for the Store Online, built with Spring Boot and MariaDB. This is the backend of the project; the frontend lives in a separate repository and consumes this API.
 
@@ -138,3 +138,8 @@ src/main/java/org/storeonline/
 ```
 
 Each table is represented by an entity (data model), a repository (database access), and a controller (API endpoints).
+
+
+## FE project builded with webpack
+
+https://github.com/denis-stuff/shop-online-FE
