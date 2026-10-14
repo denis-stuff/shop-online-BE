@@ -1,4 +1,4 @@
-# CarritoGT - Backend
+# Store Online - Backend
 
 REST API for the Store Online, built with Spring Boot and MariaDB. This is the backend of the project; the frontend lives in a separate repository and consumes this API.
 
@@ -52,7 +52,7 @@ Do not commit real credentials or secrets to the repository.
 
 ## Running the project
 
-From IntelliJ, run the `CarritogtApplication` class. It can also be launched from the terminal:
+From IntelliJ, run the `StoreOnlineApplication` class. It can also be launched from the terminal:
 
 ```bash
 mvn spring-boot:run
@@ -125,8 +125,8 @@ The API accepts requests from `http://localhost:3000`, where the frontend runs i
 ## Structure
 
 ```text
-src/main/java/org/umg/carritogt/
-    CarritogtApplication.java
+src/main/java/org/storeonline/
+    StoreOnlineApplication.java
     AuthController.java
     JwtService.java
     WebConfig.java
