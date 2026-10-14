@@ -36,14 +36,13 @@ To create it, run the script `storeonlinedb.sql` in MariaDB. The application doe
 Edit `src/main/resources/application.properties` with your own values:
 
 ```properties
-spring.application.name=carritogt
-spring.datasource.url=jdbc:mariadb://localhost:3306/storeonlinedb
-spring.datasource.username=YOUR_USERNAME
-spring.datasource.password=YOUR_PASSWORD
+spring.application.name=storeonline
+spring.datasource.url=jdbc:mariadb://localhost:3306/storeonline
+spring.datasource.username=root
+spring.datasource.password=root
 spring.datasource.driver-class-name=org.mariadb.jdbc.Driver
 spring.jpa.hibernate.ddl-auto=none
-
-jwt.secret=A_LONG_SECRET_KEY_WITH_AT_LEAST_32_CHARACTERS
+jwt.secret=storeonline-clave-secreta-de-prueba-para-jwt-2026-denis-gomez
 jwt.expiracion-minutos=120
 server.error.include-message=always
 ```
